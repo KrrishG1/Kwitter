@@ -10,7 +10,6 @@ var firebaseConfig = {
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
 
     user_name = localStorage.getItem("user_name");
 
